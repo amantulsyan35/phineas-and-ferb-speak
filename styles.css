@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Palette+Mosaic&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url(https://images-na.ssl-images-amazon.com/images/I/71JG9HWAwxL._SL1500_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Palette Mosaic', cursive;
+  padding: 1em;
+  margin: 0;
+}
+textarea {
+  padding: 2em;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 15em;
+  width: 50%;
+  border: none;
+  outline: none;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#translate {
+  padding: 1em;
+  width: 15%;
+  background-color: #1ca846;
+  border: none;
+}
+
+#translatedText {
+  padding: 2em;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  height: 7em;
+  width: 50%;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border: none;
+  opacity: 0.9;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
+  height: auto;
+  background-color: #1ca846;
+}
